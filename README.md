@@ -1,3 +1,9 @@
+## A Simple CRUD(Create Read Update Delete) application where a user can add,edit and delete blog posts
+
+
+
+### Installation Procedure :
+
 I have used a babel webpack starter pack by Brad Traversy.
 You can clone the github repo from the link below and also find out more in the Readme.MD file there
 
@@ -41,10 +47,13 @@ So that whole line should read:  presets: ['@babel/preset-env']
 
 ------------------------------------------------------------------------------------------------------------------------------
 ## Custom Library :
+
 For this project, I have made my own custom HTTP Library in order to simplify the code and have included it
 in the file 'http.js'
+
 ------------------------------------------------------------------------------------------------------------------------------
 ## Fake Rest API:
+
 I have also used the json-server api in order to mimic the backend part of the app.
 
 You can find its documentation in this link : https://www.npmjs.com/package/json-server
@@ -72,11 +81,6 @@ In order to run the server, you can use : npm run json-server
 I have used the db.json file to store the database.
 
 
------------------------------------------------------------------------------------------------------------------------
 
-Due to time constraints and no electrity in my place during the coding hours, I wasn't able to execute the pagination and authentication 
-features of the blog.
-
-But i did manage to create a fully working CRUD(Create Read Update Delete) application using Vanilla Javascript.
 ------------------------------------------------------------------------------------------------------------------------
 After installing all the dependencies , you can just use : npm run json:server and npm start , to view the application in your browser
